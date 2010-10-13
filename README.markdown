@@ -6,7 +6,7 @@ fiction with pictures, about existence and Korea. The source is
 free and open, and I welcome any collaboration you can offer!
 
 For help instructions on how to compile the Inform 7 source, visit:
-[[http://github.com/JordanMagnuson/Being-There/wiki/How-to-Compile]]
+http://github.com/JordanMagnuson/Being-There/wiki/How-to-Compile
 
 
 Contributing Code
@@ -23,7 +23,7 @@ code contribution to this project, including but not limited to:
 * Anything you can think of to make the game more enjoyable and seamless.
 
 The Being There issue queue can be found at:
-[[http://github.com/JordanMagnuson/Being-There/issues]]
+http://github.com/JordanMagnuson/Being-There/issues
 
 All contributors will be fully credited. Just sign up for a github account, 
 create a fork and hack away at the codebase! Submit patches to:
