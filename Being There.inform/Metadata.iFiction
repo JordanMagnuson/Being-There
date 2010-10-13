@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>F77DC957-7540-4B68-9AD0-5AF1729E1351</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Being There</title>
+            <author>Jordan Magnuson</author>
+            <headline>A notgame for Korea</headline>
+            <genre>Experimental</genre>
+            <firstpublished>2010</firstpublished>
+            <description>A short, experimental work of interactive fiction about existence and Korea. It is not a game, and you don't need to be familiar with interactive fiction to play it.</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>jpg</format>
+            <height>768</height>
+            <width>768</width>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2010-10-13</releasedate>
+                    <version>7</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6E72</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6E72</generatorversion>
+            <originated>2010-10-13</originated>
+        </colophon>
+        <glulx>
+            <serial>101013</serial>
+            <release>7</release>
+            <compiler>Inform 7 build 6E72</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>

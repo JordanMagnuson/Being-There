@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Graphics</key>
+        <dict>
+            <key>1</key>
+            <string>Cover.jpg</string>
+            <key>3</key>
+            <string>Figures\pink_jacket.jpg</string>
+            <key>4</key>
+            <string>Figures\street_blossoms.jpg</string>
+            <key>5</key>
+            <string>Figures\mountain.jpg</string>
+            <key>6</key>
+            <string>Figures\soccer_field.jpg</string>
+            <key>7</key>
+            <string>Figures\temple_spring.jpg</string>
+            <key>8</key>
+            <string>Figures\kimchi_pots.jpg</string>
+            <key>9</key>
+            <string>Figures\stream.jpg</string>
+            <key>10</key>
+            <string>Figures\baseball.jpg</string>
+            <key>11</key>
+            <string>Figures\boys.jpg</string>
+            <key>12</key>
+            <string>Figures\pavilion.jpg</string>
+            <key>13</key>
+            <string>Figures\umbrella_girl.jpg</string>
+        </dict>
+    </dict>
+</plist>

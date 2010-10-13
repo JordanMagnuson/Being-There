@@ -1,0 +1,48 @@
+! Blurb file created by Inform build 6E72
+
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform"
+release to "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "Being There.gblorb"
+storyfile "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform\Build\output.ulx" include
+ifiction "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform\Metadata.iFiction" include
+cover "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Cover.jpg"
+picture 1 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Cover.jpg"
+picture 3 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\pink_jacket.jpg"
+picture 4 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\street_blossoms.jpg"
+picture 5 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\mountain.jpg"
+picture 6 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\soccer_field.jpg"
+picture 7 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\temple_spring.jpg"
+picture 8 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\kimchi_pots.jpg"
+picture 9 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\stream.jpg"
+picture 10 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\baseball.jpg"
+picture 11 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\boys.jpg"
+picture 12 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\pavilion.jpg"
+picture 13 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\umbrella_girl.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "F77DC957-7540-4B68-9AD0-5AF1729E1351"
+placeholder [RELEASE] = "7"
+placeholder [YEAR] = "2010"
+placeholder [TITLE] = "Being There"
+placeholder [AUTHOR] = "Jordan Magnuson"
+placeholder [BLURB] = "A short, experimental work of interactive fiction about existence and Korea. It is not a game, and you don't need to be familiar with interactive fiction to play it."
+
+! Other material to release
+
+status instruction ||&nbsp;<a href="source:story.ni#line8"><img border=0 src=inform:/Reveal.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc393.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc394.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||
