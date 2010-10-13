@@ -11,15 +11,16 @@ http://github.com/JordanMagnuson/Being-There/wiki/How-to-Compile
 
 Contributing Code
 -----------------
+
 I would like to make Being There into as seamless an experience of
 play and experimentation as possible. To that end I welcome any
 code contribution to this project, including but not limited to:
 
-- Bug fixes
-- Cleaning up and optimizing code
-- Adding descriptions, sensory information, actions, default responses,
+* Bug fixes
+* Cleaning up and optimizing code
+* Adding descriptions, sensory information, actions, default responses,
   and more. 
-- Anything you can think of to make the game more enjoyable and seamless.
+* Anything you can think of to make the game more enjoyable and seamless.
 
 The Being There issue queue can be found at:
 http://github.com/JordanMagnuson/Being-There/issues
@@ -31,4 +32,7 @@ jm.magnuson@gmail.com
 
 License Information
 -------------------
+
+Being There was originally created by Jordan Magnuson in 2010. 
+
 This source is free. Do what you want with it!
