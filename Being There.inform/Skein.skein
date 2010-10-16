@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x02E10798" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x04CA8608"/>
+  <activeNode nodeId="node-0x02E10798"/>
   <item nodeId="node-0x02E10798">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">Being There&#x000A;&#x000A;During the course of play you will be taken to a series of locations. In each location you can do various things by typing commands into the text prompt. Try things like:&#x000A;&#x000A;listen&#x000A;examine the stripe&#x000A;touch the street&#x000A;dance on the sidewalk&#x000A;climb the tree&#x000A;taste the flower&#x000A;&#x000A;Please press SPACE to continue.</result>
@@ -35611,7 +35611,7 @@
   </item>
   <item nodeId="node-0x04C88570">
     <command xml:space="preserve">kiss road</command>
-    <result xml:space="preserve">Your lips touch the road. It feels like you've been here before.&#x000A;&#x000A;Tastes like dust and black tar.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Your lips touch the road. Just like when you were a kid... or maybe not.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
@@ -35622,7 +35622,7 @@
   </item>
   <item nodeId="node-0x04CA84B8">
     <command xml:space="preserve">kiss fence</command>
-    <result xml:space="preserve">Your lips touch the fence. You close your eyes, but the world is still there, in front of you.&#x000A;&#x000A;That's one way to get your body's daily dose of metals.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Your lips touch the fence. The breeze ruffles your hair.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
@@ -35633,7 +35633,7 @@
   </item>
   <item nodeId="node-0x04CA8448">
     <command xml:space="preserve">kiss lamp</command>
-    <result xml:space="preserve">Your lips touch the streetlight. A beam of sunlight crosses in front of you.&#x000A;&#x000A;That's one way to get your body's daily dose of metals.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Your lips touch the streetlight. Everything around you seems to drip color.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
@@ -35655,10 +35655,21 @@
   </item>
   <item nodeId="node-0x04CA8608">
     <command xml:space="preserve">kiss flower</command>
-    <result xml:space="preserve">Your lips touch the cherry blossoms. Something around you smells... interesting.&#x000A;&#x000A;You put a flower in your mouth. It tastes like the past.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">Your lips touch the cherry blossoms. The world looks different.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8678"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8678">
+    <command xml:space="preserve">kiss tree</command>
+    <result xml:space="preserve">Your lips touch the cherry blossom trees. It feels like you've been here before.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
   <item nodeId="node-0x04C885E0">

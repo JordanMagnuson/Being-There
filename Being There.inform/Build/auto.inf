@@ -17431,9 +17431,6 @@ Array ActionHappened --> 0 0 0 0 0 0 0 0 0;
          ! [6: end if]
          }
 
-      ! phrase 7
-      ! [7: try tasting the noun]
-       TryAction(0, player, ##Taste, noun, 0);; 
       RulebookFails(); rtrue;
    } ! Runs only when pattern matches
    else if (debug_rules > 1) DB_Rule(R_1126, 1126, true);
