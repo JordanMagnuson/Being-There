@@ -46,182 +46,182 @@
     </dict>
     <key>6</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>368</integer>
+        <key>Line</key><integer>370</integer>
         <key>Title</key><string>Chapter 2 - Some Generic Kinds</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>7</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>382</integer>
+        <key>Line</key><integer>384</integer>
         <key>Title</key><string>Part 2 - Locations</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>8</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>384</integer>
+        <key>Line</key><integer>386</integer>
         <key>Title</key><string>Chapter 0 - All Locations</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>9</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>413</integer>
+        <key>Line</key><integer>415</integer>
         <key>Title</key><string>Section 1 - Directions</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>10</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>471</integer>
+        <key>Line</key><integer>473</integer>
         <key>Title</key><string>Section 2 - Misc</string>
         <key>Level</key><integer>5</integer>
         <key>Indentation</key><integer>3</integer>
     </dict>
     <key>11</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>683</integer>
+        <key>Line</key><integer>685</integer>
         <key>Title</key><string>Chapter 0.5 - Intro</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>12</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>715</integer>
+        <key>Line</key><integer>717</integer>
         <key>Title</key><string>Chapter 1 - Blossom Street</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>13</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>912</integer>
+        <key>Line</key><integer>914</integer>
         <key>Title</key><string>Chapter 2 - Maisan Mountain</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>14</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1037</integer>
+        <key>Line</key><integer>1039</integer>
         <key>Title</key><string>Chapter 3 - Napo Field</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>15</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1141</integer>
+        <key>Line</key><integer>1143</integer>
         <key>Title</key><string>Chapter 4 - Temple Spring</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>16</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1243</integer>
+        <key>Line</key><integer>1245</integer>
         <key>Title</key><string>Chapter 5 - Kimchi Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>17</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1385</integer>
+        <key>Line</key><integer>1417</integer>
         <key>Title</key><string>Chapter 6 - Stream Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>18</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1502</integer>
+        <key>Line</key><integer>1534</integer>
         <key>Title</key><string>Chapter 7 - Baseball Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>19</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1620</integer>
+        <key>Line</key><integer>1652</integer>
         <key>Title</key><string>Chapter 8 - Boys Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>20</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1653</integer>
+        <key>Line</key><integer>1685</integer>
         <key>Title</key><string>Chapter 9 - Pavilion Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>21</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1661</integer>
+        <key>Line</key><integer>1693</integer>
         <key>Title</key><string>Chapter 10 - Umbrella Room</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>22</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1688</integer>
+        <key>Line</key><integer>1720</integer>
         <key>Title</key><string>Part 3 - Quips</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>23</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1793</integer>
+        <key>Line</key><integer>1825</integer>
         <key>Title</key><string>Chapter 1 - Backdrops</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>24</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1837</integer>
+        <key>Line</key><integer>1869</integer>
         <key>Title</key><string>Part 4 - Senses</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>25</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1840</integer>
+        <key>Line</key><integer>1872</integer>
         <key>Title</key><string>Chapter 1 - Feel</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>26</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1848</integer>
+        <key>Line</key><integer>1880</integer>
         <key>Title</key><string>Chapter 2 - Taste</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>27</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1873</integer>
+        <key>Line</key><integer>1905</integer>
         <key>Title</key><string>Chapter 3 - Smell</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>28</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1905</integer>
+        <key>Line</key><integer>1937</integer>
         <key>Title</key><string>Chapter 4 - Hearing</string>
         <key>Level</key><integer>4</integer>
         <key>Indentation</key><integer>2</integer>
     </dict>
     <key>29</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1937</integer>
+        <key>Line</key><integer>1969</integer>
         <key>Title</key><string>Part 5 - Body Parts</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>30</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>1985</integer>
+        <key>Line</key><integer>2017</integer>
         <key>Title</key><string>Part 6 - Time Limit</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>
     </dict>
     <key>31</key><dict>
         <key>Filename</key><string>C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Source\story.ni</string>
-        <key>Line</key><integer>2027</integer>
+        <key>Line</key><integer>2059</integer>
         <key>Title</key><string>Part 7 - Default Messages</string>
         <key>Level</key><integer>3</integer>
         <key>Indentation</key><integer>1</integer>

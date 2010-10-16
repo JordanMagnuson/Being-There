@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x02E10798" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x02E10798"/>
+  <activeNode nodeId="node-0x06FA2708"/>
   <item nodeId="node-0x02E10798">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">Being There&#x000A;&#x000A;During the course of play you will be taken to a series of locations. In each location you can do various things by typing commands into the text prompt. Try things like:&#x000A;&#x000A;listen&#x000A;examine the stripe&#x000A;touch the street&#x000A;dance on the sidewalk&#x000A;climb the tree&#x000A;taste the flower&#x000A;&#x000A;Please press SPACE to continue.</result>
@@ -20975,6 +20975,7 @@
       <child nodeId="node-0x04C89D10"/>
       <child nodeId="node-0x04C8A1E0"/>
       <child nodeId="node-0x04CA83D8"/>
+      <child nodeId="node-0x06FA2388"/>
     </children>
   </item>
   <item nodeId="node-0x04BBE9A0">
@@ -21880,17 +21881,24 @@
       <child nodeId="node-0x04BCDAF8"/>
       <child nodeId="node-0x04BCDCB8"/>
       <child nodeId="node-0x04BCE348"/>
+      <child nodeId="node-0x04CA9168"/>
+      <child nodeId="node-0x04CA96A8"/>
+      <child nodeId="node-0x04CA9B78"/>
+      <child nodeId="node-0x06FA1908"/>
     </children>
   </item>
   <item nodeId="node-0x04BC0F40">
     <command xml:space="preserve">stand on pot</command>
-    <result xml:space="preserve">You are now standing on a closed kimchi pot. You feel tall.&#x000A;&#x000A;&gt;</result>
+    <result xml:space="preserve">You are now standing on a closed kimchi pot. You are more like a spaghetti noodle now.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x04BC0FB0"/>
+      <child nodeId="node-0x04CA87C8"/>
+      <child nodeId="node-0x04CA9FD8"/>
+      <child nodeId="node-0x06FA1F28"/>
     </children>
   </item>
   <item nodeId="node-0x04BC0FB0">
@@ -21954,6 +21962,347 @@
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA87C8">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8758"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8758">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (on the closed kimchi pot)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA86E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA86E8">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8838"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8838">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">The ceramic lid has had all the abuse it can take. It breaks. You land in a mountain of kimchi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA88A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA88A8">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">The cabbage protests by belching and squeaking under your feet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8918"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8918">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">The cabbage protests by belching and squeaking under your feet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8988"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8988">
+    <command xml:space="preserve">sing</command>
+    <result xml:space="preserve">You are now singing in a kimchi pot. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA89F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA89F8">
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get out of the kimchi pot.&#x000A;&#x000A;Kimchi Pots&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8A68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8A68">
+    <command xml:space="preserve">sing on pot</command>
+    <result xml:space="preserve">You are now singing on a closed kimchi pot. Tiny drums in your ears vibrate in time.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8AD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8AD8">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You better not jump on any more of the pots, now that you've broken one.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8B48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8B48">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">You are now dancing on a closed kimchi pot. Twirling ballet style.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8C28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8C28">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (on the closed kimchi pot)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8C98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8C98">
+    <command xml:space="preserve">sing on pot</command>
+    <result xml:space="preserve">You are now singing on a closed kimchi pot. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8D08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8D08">
+    <command xml:space="preserve">get in pot</command>
+    <result xml:space="preserve">(getting off the closed kimchi pot)&#x000A;You get into the kimchi pot.&#x000A;&#x000A;In the kimchi pot you can see a small mountain of kimchi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8D78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8D78">
+    <command xml:space="preserve">lie down</command>
+    <result xml:space="preserve">You are now reclining in a kimchi pot. The ether shifts around you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8DE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8DE8">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (in the kimchi pot)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;In the kimchi pot you can see a small mountain of kimchi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8E58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8E58">
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get out of the kimchi pot.&#x000A;&#x000A;Kimchi Pots&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8EC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8EC8">
+    <command xml:space="preserve">stand on pot</command>
+    <result xml:space="preserve">You are now standing on a closed kimchi pot. It feels firm beneath your feet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA8F38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA8F38">
+    <command xml:space="preserve">lie down</command>
+    <result xml:space="preserve">You are now reclining on a closed kimchi pot. You rest your head on the earth and close your eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA9FD8">
+    <command xml:space="preserve">sit down</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CAA048"/>
+      <child nodeId="node-0x04CA9F68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CAA048">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;You continue to sit. The world looks different.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA9F68">
+    <command xml:space="preserve">sit </command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;You continue to sit. The earth spins slowly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9EF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9EF8">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;You continue to sit. You think of all the places you've never been.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x06FA1F28">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">You are now dancing on a closed kimchi pot. This would probably be called a sword dance, if you had a sword.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1F98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1F98">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1E48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1E48">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1EB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1EB8">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">The ceramic lid has had all the abuse it can take. It breaks. You land in a mountain of kimchi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2008"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2008">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2078"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2078">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA20E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA20E8">
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You are now standing in a kimchi pot. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA21C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA21C8">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2238"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2238">
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You are now standing in a kimchi pot. It seems to move under your feet. Maybe it's just the earth spinning.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
   <item nodeId="node-0x04BC1250">
@@ -23231,11 +23580,12 @@
     <result xml:space="preserve">You open a kimchi pot, revealing more kimchi than you know what to do with.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
     <children>
       <child nodeId="node-0x04BCD708"/>
       <child nodeId="node-0x04BCD778"/>
+      <child nodeId="node-0x04CA8FA8"/>
     </children>
   </item>
   <item nodeId="node-0x04BCD708">
@@ -23252,6 +23602,69 @@
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA8FA8">
+    <command xml:space="preserve">get in pot</command>
+    <result xml:space="preserve">You get into the open kimchi pot.&#x000A;&#x000A;In the open kimchi pot you can see a small mountain of kimchi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9018"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9018">
+    <command xml:space="preserve">sing</command>
+    <result xml:space="preserve">You are now singing in an open kimchi pot. A trumpet sounds in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9088"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9088">
+    <command xml:space="preserve">sing in pot</command>
+    <result xml:space="preserve">But you're already in the open kimchi pot.&#x000A;You are now singing in an open kimchi pot. The cabbage resonates around you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA90F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA90F8">
+    <command xml:space="preserve">open pot</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9248"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9248">
+    <command xml:space="preserve">get in pot</command>
+    <result xml:space="preserve">But you're already in the open kimchi pot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA91D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA91D8">
+    <command xml:space="preserve">lie down</command>
+    <result xml:space="preserve">You are now reclining in an open kimchi pot. You rest your head on the earth and close your eyes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
     <temporary score="0">YES</temporary>
   </item>
   <item nodeId="node-0x04BCD7E8">
@@ -23553,6 +23966,423 @@
   <item nodeId="node-0x04BCE428">
     <command xml:space="preserve">jump</command>
     <result xml:space="preserve">You jump on the spot. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA9168">
+    <command xml:space="preserve">lie on pot</command>
+    <result xml:space="preserve">You jump onto a closed pot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9398"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9398">
+    <command xml:space="preserve">get on pot</command>
+    <result xml:space="preserve">But you're already on the closed kimchi pot.&#x000A;&#x000A;You jump onto a closed pot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9328"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9328">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA92B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA92B8">
+    <command xml:space="preserve">lie down</command>
+    <result xml:space="preserve">The pots are a bit small to lie on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9408"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9408">
+    <command xml:space="preserve">get off</command>
+    <result xml:space="preserve">You get off the closed kimchi pot.&#x000A;&#x000A;Kimchi Pots&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9478"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9478">
+    <command xml:space="preserve">lie down</command>
+    <result xml:space="preserve">You are now reclining. Face on down, particles colliding with your face.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA94E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA94E8">
+    <command xml:space="preserve">get on ground</command>
+    <result xml:space="preserve">You get into the ground.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9558"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9558">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (in the ground)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA95C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA95C8">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">You are now dancing on the ground. Everything around you seems to drip color.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9638"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9638">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (in the ground)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA96A8">
+    <command xml:space="preserve">get on ground</command>
+    <result xml:space="preserve">You get into the ground.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9718"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9718">
+    <command xml:space="preserve">get on pot</command>
+    <result xml:space="preserve">(getting out of the ground)&#x000A;You get onto the closed kimchi pot.&#x000A;&#x000A;You jump onto a closed pot.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9948"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9948">
+    <command xml:space="preserve">lie on pot</command>
+    <result xml:space="preserve">The pots are a bit small to lie on.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9788"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9788">
+    <command xml:space="preserve">open pot</command>
+    <result xml:space="preserve">You open a kimchi pot, revealing more kimchi than you know what to do with.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA98D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA98D8">
+    <command xml:space="preserve">stand in pot</command>
+    <result xml:space="preserve">(getting off the closed kimchi pot)&#x000A;You are now standing in an open kimchi pot; the strong spicy odor surrounds you, and the cabbage is soft beneath your bare feet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9868"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9868">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">You are now dancing in an open kimchi pot. Twirling ballet style.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA99B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA99B8">
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You are now standing in an open kimchi pot. You imagine that you are a needle, pointed towards the sky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x04CA9B78">
+    <command xml:space="preserve">sit on pot</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9A28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9A28">
+    <command xml:space="preserve">stand up</command>
+    <result xml:space="preserve">You continue to stand. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9A98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9A98">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (on the closed kimchi pot)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9BE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9BE8">
+    <command xml:space="preserve">sit on pot</command>
+    <result xml:space="preserve">But you're already on the closed kimchi pot.&#x000A;You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9D38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9D38">
+    <command xml:space="preserve">stand on pot</command>
+    <result xml:space="preserve">You are now standing on a closed kimchi pot. You imagine that you are a needle, pointed towards the sky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9CC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9CC8">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;You are now seated on a closed kimchi pot. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9C58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9C58">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Kimchi Pots (on the closed kimchi pot)&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9DA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9DA8">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;You continue to sit. You wonder how you ended up here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9E18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9E18">
+    <command xml:space="preserve">stand on pot</command>
+    <result xml:space="preserve">You are now standing on a closed kimchi pot. The breeze ruffles your hair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x04CA9E88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x04CA9E88">
+    <command xml:space="preserve">sit</command>
+    <result xml:space="preserve">You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.&#x000A;&#x000A;You are now seated on a closed kimchi pot. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x06FA1908">
+    <command xml:space="preserve">dance on pot</command>
+    <result xml:space="preserve">You are now dancing on a closed kimchi pot. This would probably be called a sword dance, if you had a sword.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1978"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1978">
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You are now standing on a closed kimchi pot. You feel a breeze behind you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA19E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA19E8">
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You continue to stand. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1A58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1A58">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1AC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1AC8">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1B38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1B38">
+    <command xml:space="preserve">jump</command>
+    <result xml:space="preserve">The ceramic lid has had all the abuse it can take. It breaks. You land in a mountain of kimchi.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1BA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1BA8">
+    <command xml:space="preserve">stand</command>
+    <result xml:space="preserve">You continue to stand. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1C18"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1C18">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1C88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1C88">
+    <command xml:space="preserve">dance in pot</command>
+    <result xml:space="preserve">But you're already in the kimchi pot.&#x000A;&#x000A;You continue to dance. You wonder how you ended up here.&#x000A;Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1CF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1CF8">
+    <command xml:space="preserve">get out</command>
+    <result xml:space="preserve">You get out of the kimchi pot.&#x000A;&#x000A;Kimchi Pots&#x000A;If there was kimchi in one of those pots you could eat it... you could put it in your mouth and let the spices soak your tongue.&#x000A;&#x000A;You could climb into one of the pots and sing until your voice was hoarse.&#x000A;&#x000A;You could stand on top of one of them and jump up and down until someone made you stop.&#x000A;&#x000A;You could do a million things. Or nothing at all.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1D68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1D68">
+    <command xml:space="preserve">dance in pot</command>
+    <result xml:space="preserve">Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA1DD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA1DD8">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.&#x000A;&#x000A;You continue to dance. A beam of sunlight crosses in front of you.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
@@ -36384,6 +37214,124 @@
   <item nodeId="node-0x04CA83D8">
     <command xml:space="preserve">kiss the road</command>
     <result xml:space="preserve">Your lips touch the road.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x06FA2388">
+    <command xml:space="preserve">taste flower</command>
+    <result xml:space="preserve">You put a flower in your mouth. It tastes like the past.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2318"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2318">
+    <command xml:space="preserve">kiss road</command>
+    <result xml:space="preserve">Your lips touch the road. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA22A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA22A8">
+    <command xml:space="preserve">kiss road</command>
+    <result xml:space="preserve">Your lips touch the road. You hear rain in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA23F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA23F8">
+    <command xml:space="preserve">move north</command>
+    <result xml:space="preserve">Maisan Mountain&#x000A;After traveling north for some time you find yourself atop Maisain Mountain, looking out over the farmland of North Jeolla. There's a golf course down there that you might just be able to touch, as well as some man-made lakes and Geum River, winding itself towards the Yellow Sea.&#x000A;&#x000A;You could dance in the sky here, if you wanted. You could probably fly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2468"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2468">
+    <command xml:space="preserve">sing</command>
+    <result xml:space="preserve">You are now singing. Just like when you were a kid... or maybe not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA24D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA24D8">
+    <command xml:space="preserve">fly in sky</command>
+    <result xml:space="preserve">You are now flying in the sky. You feel millions of Nitrogen and Oxygen particles hitting your skin.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2548"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2548">
+    <command xml:space="preserve">dive</command>
+    <result xml:space="preserve">You soar up, and then down, twirling and gliding like you were born to do it. Like the fastest things on earth.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA25B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA25B8">
+    <command xml:space="preserve">get down</command>
+    <result xml:space="preserve">You get out of the sky.&#x000A;&#x000A;Maisan Mountain&#x000A;Maisain Mountain, looking out over the farmland of North Jeolla. There's a golf course down there that you might just be able to touch, as well as some man-made lakes and Geum River, winding itself towards the Yellow Sea.&#x000A;&#x000A;You could dance in the sky here, if you wanted. You could probably fly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2628"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2628">
+    <command xml:space="preserve">swim in lake</command>
+    <result xml:space="preserve">You jump into a lake. Cool water flows over you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2698"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2698">
+    <command xml:space="preserve">dive</command>
+    <result xml:space="preserve">You plunge deep into the water, surrounding yourself with the cool liquid until you can hold your breath no more, then you surface again. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2708"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2708">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Maisan Mountain (in the man-made lakes)&#x000A;Maisain Mountain, looking out over the farmland of North Jeolla. There's a golf course down there that you might just be able to touch, as well as some man-made lakes and Geum River, winding itself towards the Yellow Sea.&#x000A;&#x000A;You could dance in the sky here, if you wanted. You could probably fly.&#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

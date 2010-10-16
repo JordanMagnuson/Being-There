@@ -6,7 +6,7 @@ Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -rules C:\Program
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 12791 words long.
+I've now read your source text, which is 13022 words long.
 
 
 -----------------------------------------------------
@@ -272,10 +272,6 @@ Phase XII ... Code generation
 
 
 ==== Phase XII.15 ... Compiling chronology ====
-
-Forcing to present:   [Valid]  Action: jumping on /   Noun: (A)'the supporter-pot'/VALUE_FMY/CONSTANT_SPC-object  Duration: <3 times>  
-
-Thus:   [Valid]  Action: jumping on /   Noun: (A)'the supporter-pot'/VALUE_FMY/CONSTANT_SPC-object
 
 Forcing to present:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC  Duration: <1 times>  
 

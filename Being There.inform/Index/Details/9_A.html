@@ -166,73 +166,16 @@ the outside is converted to a going action. Finally, note that whereas
 entering works for either containers or supporters, exiting is purely for
 getting oneself out of containers: if the actor is on top of a supporter
 instead, an exiting action is converted to the getting off action.<p><hr><p><b>Typed commands leading to this action</b><p>
-<p class="hangingin2">&quot;get out/off/down/up&quot;</p><p class="hangingin2">&quot;exit&quot;</p><p class="hangingin2">&quot;get down&quot;&nbsp;<a href="source:story.ni#line663"><img border=0 src=inform:/Reveal.png></a></p><p><b>Named values belonging to this action</b><p>
+<p class="hangingin2">&quot;get out/off/down/up&quot;</p><p class="hangingin2">&quot;exit&quot;</p><p class="hangingin2">&quot;get down&quot;&nbsp;<a href="source:story.ni#line665"><img border=0 src=inform:/Reveal.png></a></p><p><b>Named values belonging to this action</b><p>
 container exited from ... <i>object</i><br>
 <p><b>Rules controlling this action</b><p>
 <p class="hangingin2">set action variables for&nbsp;&nbsp;&nbsp;&nbsp;<i>exiting</i>&nbsp;&nbsp;</p>
 <br><p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>asking someone to try doing something when the person asked is not the current interlocutor</i>&nbsp;&nbsp;<font color="#800000">giving orders needs an interlocutor rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1805(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('giving orders needs an interlocutor rule');
-}
-</script>
-<a href="javascript:pasteCode1805()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1806(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('The giving orders needs an interlocutor rule is not listed in the before rulebook.[=0x000A=]');
-}
-</script>
-<a href="javascript:pasteCode1806()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
-</p>
-<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Baseball Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1999"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Boys-Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2004"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Pavilion Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2009"><img border=0 src=inform:/Reveal.png></a></p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the change greeting command to greeting rule is listed before the giving orders needs an interlocutor rule in the before rules&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
-</small><br>
-<br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">convert exit into go out rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1807(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('convert exit into go out rule');
-}
-</script>
-<a href="javascript:pasteCode1807()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1808(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('The convert exit into go out rule is not listed in the check exiting rulebook.[=0x000A=]');
-}
-</script>
-<a href="javascript:pasteCode1808()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">can't exit when not inside anything rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1809(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('can[=0x0027=]t exit when not inside anything rule');
-}
-</script>
-<a href="javascript:pasteCode1809()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1810(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('The can[=0x0027=]t exit when not inside anything rule is not listed in the check exiting rulebook.[=0x000A=]');
-}
-</script>
-<a href="javascript:pasteCode1810()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">can't exit closed containers rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1811(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('can[=0x0027=]t exit closed containers rule');
+    myProject.pasteCode('giving orders needs an interlocutor rule');
 }
 </script>
 <a href="javascript:pasteCode1811()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -240,16 +183,22 @@ function pasteCode1812(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The can[=0x0027=]t exit closed containers rule is not listed in the check exiting rulebook.[=0x000A=]');
+    myProject.pasteCode('The giving orders needs an interlocutor rule is not listed in the before rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1812()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">convert exit into get off rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<a href="javascript:pasteCode1812()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Baseball Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2031"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Boys-Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2036"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Pavilion Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2041"><img border=0 src=inform:/Reveal.png></a></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the change greeting command to greeting rule is listed before the giving orders needs an interlocutor rule in the before rules&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</small><br>
+<br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">convert exit into go out rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1813(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('convert exit into get off rule');
+    myProject.pasteCode('convert exit into go out rule');
 }
 </script>
 <a href="javascript:pasteCode1813()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -257,16 +206,16 @@ function pasteCode1814(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The convert exit into get off rule is not listed in the check exiting rulebook.[=0x000A=]');
+    myProject.pasteCode('The convert exit into go out rule is not listed in the check exiting rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1814()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">standard exiting rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">can't exit when not inside anything rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1815(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('standard exiting rule');
+    myProject.pasteCode('can[=0x0027=]t exit when not inside anything rule');
 }
 </script>
 <a href="javascript:pasteCode1815()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -274,16 +223,16 @@ function pasteCode1816(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The standard exiting rule is not listed in the carry out exiting rulebook.[=0x000A=]');
+    myProject.pasteCode('The can[=0x0027=]t exit when not inside anything rule is not listed in the check exiting rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1816()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">departure-posture rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">can't exit closed containers rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1817(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('departure-posture rule');
+    myProject.pasteCode('can[=0x0027=]t exit closed containers rule');
 }
 </script>
 <a href="javascript:pasteCode1817()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -291,17 +240,16 @@ function pasteCode1818(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The departure-posture rule is not listed in the carry out exiting rulebook.[=0x000A=]');
+    myProject.pasteCode('The can[=0x0027=]t exit closed containers rule is not listed in the check exiting rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1818()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href="source:story.ni#line345"><img border=0 src=inform:/Reveal.png></a></p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the departure-posture rule is listed after the standard exiting rule in the carry out exiting rulebook&nbsp;<a href="source:story.ni#line352"><img border=0 src=inform:/Reveal.png></a></small><br>
-<br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">standard report exiting rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<a href="javascript:pasteCode1818()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">convert exit into get off rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1819(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('standard report exiting rule');
+    myProject.pasteCode('convert exit into get off rule');
 }
 </script>
 <a href="javascript:pasteCode1819()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -309,16 +257,16 @@ function pasteCode1820(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The standard report exiting rule is not listed in the report exiting rulebook.[=0x000A=]');
+    myProject.pasteCode('The convert exit into get off rule is not listed in the check exiting rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1820()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">describe room emerged into rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">standard exiting rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1821(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('describe room emerged into rule');
+    myProject.pasteCode('standard exiting rule');
 }
 </script>
 <a href="javascript:pasteCode1821()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -326,8 +274,60 @@ function pasteCode1822(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The describe room emerged into rule is not listed in the report exiting rulebook.[=0x000A=]');
+    myProject.pasteCode('The standard exiting rule is not listed in the carry out exiting rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1822()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">departure-posture rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1823(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('departure-posture rule');
+}
+</script>
+<a href="javascript:pasteCode1823()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1824(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The departure-posture rule is not listed in the carry out exiting rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1824()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href="source:story.ni#line347"><img border=0 src=inform:/Reveal.png></a></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the departure-posture rule is listed after the standard exiting rule in the carry out exiting rulebook&nbsp;<a href="source:story.ni#line354"><img border=0 src=inform:/Reveal.png></a></small><br>
+<br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">standard report exiting rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1825(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('standard report exiting rule');
+}
+</script>
+<a href="javascript:pasteCode1825()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1826(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The standard report exiting rule is not listed in the report exiting rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1826()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor exiting</i>&nbsp;&nbsp;<font color="#800000">describe room emerged into rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1827(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('describe room emerged into rule');
+}
+</script>
+<a href="javascript:pasteCode1827()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1828(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The describe room emerged into rule is not listed in the report exiting rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1828()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p></font></body></html>

@@ -336,6 +336,8 @@ To say in-on (item - a thing):
 			say "on [a item]";
 		otherwise:
 			say "on [the item]";
+	otherwise if the item is the ground:
+		say "on [the item]";
 	otherwise:
 		if the item is one-of-many:
 			say "in [a item]"; 
@@ -1292,13 +1294,17 @@ Instead of standing up on the open pot:
 		try standing up on the supporter-pot;
 	otherwise:
 		silently try entering the open pot;
+		change the posture of the actor to standing; 
 		say "You are now standing in an open kimchi pot; the strong spicy odor surrounds you, and the cabbage is soft beneath your bare feet.";
 
 Instead of sitting on the open pot:
 	if the player's command includes "on" or the open pot is closed:
+		silently try entering the supporter-pot;
+		change the posture of the actor to seated; 
 		say "You are now sitting on one of the closed kimchi pots. You feel the power of kimchi beneath you.";
 	otherwise:
 		silently try entering the open pot;
+		change the posture of the actor to seated; 
 		say "You are now sitting in an open kimchi pot; the strong spicy odor surrounds you, and the cabbage is soft beneath you.";
 
 Instead of dancing on the open pot:
@@ -1306,13 +1312,28 @@ Instead of dancing on the open pot:
 		try dancing on the supporter-pot;
 	otherwise:
 		silently try entering the open pot;
+		change the posture of the actor to dancing; 
 		say "Some might say the pots are a bit small for dancing in, but you wiggle around as best you can."
+		
+Before dancing:
+	if the holder of the player is the open pot:
+		say "Some might say the pots are a bit small for dancing in, but you wiggle around as best you can.";
+		change the posture of the actor to dancing; 
+		stop the action;
 
 Instead of lying on the open pot:
 	if the player's command includes "on" or the open pot is closed:
 		say "The pots are a bit small to lie on.";
 	otherwise:
 		say "The pots are a bit small to lie in.";
+		
+Before lying down:
+	if the holder of the player is the supporter-pot:
+		say "The pots are a bit small to lie on.";
+		stop the action;
+	otherwise if the holder of the player is the open pot:
+		say "The pots are a bit small to lie in.";
+		stop the action;
 
 Instead of singing on the open pot:
 	if the player's command includes "on" or the open pot is closed:
@@ -1321,30 +1342,41 @@ Instead of singing on the open pot:
 		silently try entering the open pot;
 		say "You are now singing in an open kimchi pot. The cabbage resonates around you.";
 		
-Instead of jumping on the open pot:
-	if the player's command includes "on" or the open pot is closed:
-		try jumping on the supporter-pot;
-		stop the action;
-	otherwise:
-		continue the action;
-		
-After jumping on the open pot:
-	say "The cabbage protests by belching and squeaking under your feet.";
-		
-After jumping on the supporter-pot:
-	say "You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!";	
-	
-Instead of jumping on the supporter-pot for the third time:
-	say "The ceramic lid has had all the abuse it can take. It breaks. You land in a mountain of kimchi.";
-	now the open pot is open;
-	silently try getting off the supporter-pot;
-	silently try entering the open pot;
+Lid-breaking is a number that varies. Lid-breaking is 0.
 
-Instead of entering the closed open pot:
+Before jumping or jumping on (this is the jumping on pots rule):
+	if the player is in the open pot:
+		if the player's command includes "on" or the open pot is closed:
+			if lid-breaking is less than 2:
+				move the player to the supporter-pot;
+				say "You jump onto the closed pot.";
+				stop the action;
+			otherwise:
+				say "That is no longer possible, now that you have broken the lid.";
+				stop the action;
+		otherwise:
+			say "The cabbage protests by belching and squeaking under your feet.";
+			stop the action;
+	if the player is on the supporter-pot:
+		if lid-breaking is 2:
+			say "The ceramic lid has had all the abuse it can take. It breaks. You land in a mountain of kimchi.";
+			now the open pot is open;
+			silently try getting off the supporter-pot;
+			silently try entering the open pot;
+		otherwise if lid-breaking is greater than 2:
+			say "You better not jump on any more of the pots, now that you've broken one.";
+		otherwise:
+			say "You jump up and down like a maniac on the ceramic lid of the kimchi pot. You better hope it doesn't break under you!";
+		       increase lid-breaking by 1;
+		       do nothing instead.
+       
+Instead of entering the closed open pot (this is the getting on the closed pot rule):
 	if the player's command includes "in" and the open pot is closed:
 		say "You'll need to open one of the pots first.";
 	otherwise:
 		try entering the supporter-pot;
+		say "You jump onto a closed pot.".       
+       
 
 Instead of tasting the open pot:
 	say "(If you want to eat the kimchi, try the command 'eat kimchi'.)"

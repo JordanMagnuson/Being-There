@@ -168,54 +168,13 @@ barriers rule automatically generates entering and exiting actions needed
 to pass between anything which might be in the way: for instance, in a
 room with two open cages, an actor in cage A who tries entering cage B first
 has to perform an exiting action.<p><hr><p><b>Typed commands leading to this action</b><p>
-<p class="hangingin2">&quot;get in/on&quot;</p><p class="hangingin2">&quot;get in/into/on/onto [something]&quot;</p><p class="hangingin2">&quot;go [something]&quot;</p><p class="hangingin2">&quot;go into/in/inside/through [something]&quot;</p><p class="hangingin2">&quot;enter&quot;</p><p class="hangingin2">&quot;enter [something]&quot;</p><p class="hangingin2">&quot;climb into [something]&quot;&nbsp;<a href="source:story.ni#line512"><img border=0 src=inform:/Reveal.png></a></p><p><b>Rules controlling this action</b><p>
+<p class="hangingin2">&quot;get in/on&quot;</p><p class="hangingin2">&quot;get in/into/on/onto [something]&quot;</p><p class="hangingin2">&quot;go [something]&quot;</p><p class="hangingin2">&quot;go into/in/inside/through [something]&quot;</p><p class="hangingin2">&quot;enter&quot;</p><p class="hangingin2">&quot;enter [something]&quot;</p><p class="hangingin2">&quot;climb into [something]&quot;&nbsp;<a href="source:story.ni#line514"><img border=0 src=inform:/Reveal.png></a></p><p><b>Rules controlling this action</b><p>
 <p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>asking someone to try doing something when the person asked is not the current interlocutor</i>&nbsp;&nbsp;<font color="#800000">giving orders needs an interlocutor rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1781(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('giving orders needs an interlocutor rule');
-}
-</script>
-<a href="javascript:pasteCode1781()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1782(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('The giving orders needs an interlocutor rule is not listed in the before rulebook.[=0x000A=]');
-}
-</script>
-<a href="javascript:pasteCode1782()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
-</p>
-<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Baseball Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1999"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Boys-Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2004"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Pavilion Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2009"><img border=0 src=inform:/Reveal.png></a></p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the change greeting command to greeting rule is listed before the giving orders needs an interlocutor rule in the before rules&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
-</small><br>
-<br><p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>entering the closed open pot</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1343"><img border=0 src=inform:/Reveal.png></a></p>
-<br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter door into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
-function pasteCode1783(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('convert enter door into go rule');
-}
-</script>
-<a href="javascript:pasteCode1783()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
-function pasteCode1784(code) {
-    var myProject = external.Project;
-
-    myProject.selectView('source');
-    myProject.pasteCode('The convert enter door into go rule is not listed in the check entering rulebook.[=0x000A=]');
-}
-</script>
-<a href="javascript:pasteCode1784()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter compass direction into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1785(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('convert enter compass direction into go rule');
+    myProject.pasteCode('giving orders needs an interlocutor rule');
 }
 </script>
 <a href="javascript:pasteCode1785()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -223,16 +182,22 @@ function pasteCode1786(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The convert enter compass direction into go rule is not listed in the check entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The giving orders needs an interlocutor rule is not listed in the before rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1786()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's already entered rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<a href="javascript:pasteCode1786()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Baseball Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2031"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Boys-Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2036"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">before&nbsp;&nbsp;&nbsp;&nbsp;<i>doing anything other than going or leaving in Pavilion Room</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line2041"><img border=0 src=inform:/Reveal.png></a></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the change greeting command to greeting rule is listed before the giving orders needs an interlocutor rule in the before rules&nbsp;<a href='inform://Extensions/Extensions/Eric%20Eve/Conversation%20Framework.html' title="Conversation Framework by Eric Eve" STYLE="text-decoration: none"><img border=0 src=inform:/Revealext.png></a>
+</small><br>
+<br><p class="hangingin2">instead of&nbsp;&nbsp;&nbsp;&nbsp;<i>entering the closed open pot</i>&nbsp;&nbsp;<font color="#800000">getting on the closed pot rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1787(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule');
+    myProject.pasteCode('getting on the closed pot rule');
 }
 </script>
 <a href="javascript:pasteCode1787()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -240,16 +205,16 @@ function pasteCode1788(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s already entered rule is not listed in the check entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The getting on the closed pot rule is not listed in the instead rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1788()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's not enterable rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<a href="javascript:pasteCode1788()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href="source:story.ni#line1373"><img border=0 src=inform:/Reveal.png></a></p>
+<br><p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter door into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1789(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule');
+    myProject.pasteCode('convert enter door into go rule');
 }
 </script>
 <a href="javascript:pasteCode1789()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -257,16 +222,16 @@ function pasteCode1790(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s not enterable rule is not listed in the check entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The convert enter door into go rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1790()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter closed containers rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">convert enter compass direction into go rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1791(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('can[=0x0027=]t enter closed containers rule');
+    myProject.pasteCode('convert enter compass direction into go rule');
 }
 </script>
 <a href="javascript:pasteCode1791()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -274,16 +239,16 @@ function pasteCode1792(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The can[=0x0027=]t enter closed containers rule is not listed in the check entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The convert enter compass direction into go rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1792()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter something carried rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's already entered rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1793(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('can[=0x0027=]t enter something carried rule');
+    myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s already entered rule');
 }
 </script>
 <a href="javascript:pasteCode1793()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -291,16 +256,16 @@ function pasteCode1794(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The can[=0x0027=]t enter something carried rule is not listed in the check entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s already entered rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1794()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">implicitly pass through other barriers rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter what's not enterable rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1795(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('implicitly pass through other barriers rule');
+    myProject.pasteCode('can[=0x0027=]t enter what[=0x0027=]s not enterable rule');
 }
 </script>
 <a href="javascript:pasteCode1795()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -308,20 +273,16 @@ function pasteCode1796(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The implicitly pass through other barriers rule is not listed in the check entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The can[=0x0027=]t enter what[=0x0027=]s not enterable rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1796()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering the cherry blossom trees</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line833"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering the fence</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line850"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering The maisan-trees</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1019"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering napo-trees</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1080"><img border=0 src=inform:/Reveal.png></a></p>
-<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter closed containers rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1797(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('standard entering rule');
+    myProject.pasteCode('can[=0x0027=]t enter closed containers rule');
 }
 </script>
 <a href="javascript:pasteCode1797()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -329,16 +290,16 @@ function pasteCode1798(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The standard entering rule is not listed in the carry out entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The can[=0x0027=]t enter closed containers rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1798()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering something</i>&nbsp;&nbsp;<font color="#800000">arrival-posture rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">can't enter something carried rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1799(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('arrival-posture rule');
+    myProject.pasteCode('can[=0x0027=]t enter something carried rule');
 }
 </script>
 <a href="javascript:pasteCode1799()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -346,17 +307,16 @@ function pasteCode1800(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The arrival-posture rule is not listed in the carry out entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The can[=0x0027=]t enter something carried rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
-<a href="javascript:pasteCode1800()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href="source:story.ni#line355"><img border=0 src=inform:/Reveal.png></a></p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the arrival-posture rule is listed after the standard entering rule in the carry out entering rulebook&nbsp;<a href="source:story.ni#line359"><img border=0 src=inform:/Reveal.png></a></small><br>
-<br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard report entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<a href="javascript:pasteCode1800()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">check&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">implicitly pass through other barriers rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1801(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('standard report entering rule');
+    myProject.pasteCode('implicitly pass through other barriers rule');
 }
 </script>
 <a href="javascript:pasteCode1801()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -364,16 +324,20 @@ function pasteCode1802(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The standard report entering rule is not listed in the report entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The implicitly pass through other barriers rule is not listed in the check entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1802()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
-<p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">describe contents entered into rule</font>&nbsp;&nbsp;<script language="JavaScript">
+<br><p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering the cherry blossom trees</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line835"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering the fence</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line852"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering The maisan-trees</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1021"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>entering napo-trees</i>&nbsp;&nbsp;&nbsp;<a href="source:story.ni#line1082"><img border=0 src=inform:/Reveal.png></a></p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
 function pasteCode1803(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('describe contents entered into rule');
+    myProject.pasteCode('standard entering rule');
 }
 </script>
 <a href="javascript:pasteCode1803()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
@@ -381,8 +345,60 @@ function pasteCode1804(code) {
     var myProject = external.Project;
 
     myProject.selectView('source');
-    myProject.pasteCode('The describe contents entered into rule is not listed in the report entering rulebook.[=0x000A=]');
+    myProject.pasteCode('The standard entering rule is not listed in the carry out entering rulebook.[=0x000A=]');
 }
 </script>
 <a href="javascript:pasteCode1804()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">carry out&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering something</i>&nbsp;&nbsp;<font color="#800000">arrival-posture rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1805(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('arrival-posture rule');
+}
+</script>
+<a href="javascript:pasteCode1805()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1806(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The arrival-posture rule is not listed in the carry out entering rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1806()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i>&nbsp;<a href="source:story.ni#line357"><img border=0 src=inform:/Reveal.png></a></p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><i>NB:</i> the arrival-posture rule is listed after the standard entering rule in the carry out entering rulebook&nbsp;<a href="source:story.ni#line361"><img border=0 src=inform:/Reveal.png></a></small><br>
+<br><p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">standard report entering rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1807(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('standard report entering rule');
+}
+</script>
+<a href="javascript:pasteCode1807()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1808(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The standard report entering rule is not listed in the report entering rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1808()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
+<p class="hangingin2">report&nbsp;&nbsp;&nbsp;&nbsp;<i>an actor entering</i>&nbsp;&nbsp;<font color="#800000">describe contents entered into rule</font>&nbsp;&nbsp;<script language="JavaScript">
+function pasteCode1809(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('describe contents entered into rule');
+}
+</script>
+<a href="javascript:pasteCode1809()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>name</i> <script language="JavaScript">
+function pasteCode1810(code) {
+    var myProject = external.Project;
+
+    myProject.selectView('source');
+    myProject.pasteCode('The describe contents entered into rule is not listed in the report entering rulebook.[=0x000A=]');
+}
+</script>
+<a href="javascript:pasteCode1810()"><img border=0 src=inform:/doc_images/paste.png></a>&nbsp;<i>unlist</i></p>
 <br><p></font></body></html>
