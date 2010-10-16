@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Skein rootNode="node-0x02E10798" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Inform 7 for Windows</generator>
-  <activeNode nodeId="node-0x06FA2708"/>
+  <activeNode nodeId="node-0x06FA3EA8"/>
   <item nodeId="node-0x02E10798">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">Being There&#x000A;&#x000A;During the course of play you will be taken to a series of locations. In each location you can do various things by typing commands into the text prompt. Try things like:&#x000A;&#x000A;listen&#x000A;examine the stripe&#x000A;touch the street&#x000A;dance on the sidewalk&#x000A;climb the tree&#x000A;taste the flower&#x000A;&#x000A;Please press SPACE to continue.</result>
@@ -20976,6 +20976,7 @@
       <child nodeId="node-0x04C8A1E0"/>
       <child nodeId="node-0x04CA83D8"/>
       <child nodeId="node-0x06FA2388"/>
+      <child nodeId="node-0x06FA3118"/>
     </children>
   </item>
   <item nodeId="node-0x04BBE9A0">
@@ -21640,6 +21641,7 @@
       <child nodeId="node-0x04BF42B8"/>
       <child nodeId="node-0x04BF4328"/>
       <child nodeId="node-0x04BF4948"/>
+      <child nodeId="node-0x06FA2858"/>
     </children>
   </item>
   <item nodeId="node-0x04BC0610">
@@ -27315,6 +27317,223 @@
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x06FA2858">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. Or does it?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA28C8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA28C8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You feel a breeze behind you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2778"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2778">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA27E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA27E8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You hear thunder rumble in a distant land.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2938"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2938">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA29A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA29A8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. Life is good.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2A88"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2A88">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You close your eyes, but the world is still there, in front of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2AF8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2AF8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2B68"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2B68">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2BD8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2BD8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. A beam of sunlight crosses in front of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2C48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2C48">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. Something around you smells... interesting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2CB8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2CB8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2D28"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2D28">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2D98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2D98">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You hear rain in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2E08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2E08">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You close your eyes for a moment... and almost fall asleep.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2E78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2E78">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. Just like when you were a kid... or maybe not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2EE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2EE8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. A bird flies by, and looks at you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2F58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2F58">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You take a deep breath.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA2FC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA2FC8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. The ether shifts around you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3038"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3038">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="0">YES</temporary>
   </item>
   <item nodeId="node-0x04BF5048">
@@ -37332,6 +37551,322 @@
   <item nodeId="node-0x06FA2708">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Maisan Mountain (in the man-made lakes)&#x000A;Maisain Mountain, looking out over the farmland of North Jeolla. There's a golf course down there that you might just be able to touch, as well as some man-made lakes and Geum River, winding itself towards the Yellow Sea.&#x000A;&#x000A;You could dance in the sky here, if you wanted. You could probably fly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+  </item>
+  <item nodeId="node-0x06FA3118">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">The cherry blossoms pile higher.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA30A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA30A8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. A beam of sunlight crosses in front of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA31F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA31F8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">The cherry blossoms pile higher still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA32D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA32D8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3348"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3348">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">The cherry blossoms cover you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA33B8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA33B8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You hear thunder rumble in a distant land.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3428"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3428">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3498"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3498">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3508"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3508">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3578"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3578">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA35E8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA35E8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3658"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3658">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3738"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3738">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA37A8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA37A8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You feel a breeze behind you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3818"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3818">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3888"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3888">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. The breeze ruffles your hair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA38F8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA38F8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. The world looks different.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3968"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3968">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You close your eyes, but the world is still there, in front of you.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA39D8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA39D8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3268"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3268">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. Above you is the sky.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3A48"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3A48">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. Just like when you were a kid... or maybe not.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3B98"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3B98">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You think of all the places you've never been.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3C08"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3C08">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. You hear rain in the distance.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3C78"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3C78">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3CE8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3CE8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still. You close your eyes for a moment... and almost fall asleep.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3D58"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3D58">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still. The earth spins slowly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3DC8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3DC8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time stands still. A little bug buzzes by.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3E38"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3E38">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="0">YES</temporary>
+    <children>
+      <child nodeId="node-0x06FA3EA8"/>
+    </children>
+  </item>
+  <item nodeId="node-0x06FA3EA8">
+    <command xml:space="preserve">wait</command>
+    <result xml:space="preserve">Time passes. &#x000A;&#x000A;&gt;</result>
     <commentary xml:space="preserve"></commentary>
     <played>YES</played>
     <changed>NO</changed>

@@ -905,10 +905,16 @@ Instead of waiting for the fifth time:
 		say "The cherry blossoms cover you.";
 	otherwise: 
 		say "Time passes.";
-
-
-Instead of waiting for the ninth time:
-	say "Time stands still.";
+	
+After waiting:
+	if a random chance of 1 in 6 succeeds:
+		say "Time stands still. [no line break]";
+	otherwise:
+		say "Time passes. [no line break]";
+	if a random chance of 2 in 3 succeeds:
+		show the next response from the Generic-Quips, with newlines;
+	otherwise:
+		say "[line break]";	
 
 
 Chapter 2 - Maisan Mountain
