@@ -496,6 +496,16 @@ report swinging on something which is swingable:
 report swinging on something which is unswingable: 
 	say "You can't really swing on that.";
 	stop.
+	
+[Kissing inanimate objects]
+Understand "kiss [something]" as kissing.
+
+Instead of kissing something when the noun is not a person:
+	say "Your lips touch [the noun]. [no line break]";
+	if a random chance of 2 in 3 succeeds:
+		show the next response from the Generic-Quips, with newlines;
+	otherwise:
+		say line break;
 
 [Getting into and out of]
 Climbing into is an action applying to one thing. 
@@ -2019,5 +2029,5 @@ Part 7 - Default Messages
  Table of custom library messages (continued)
   	Message Id  	Message Text  
   	LibMsg <block attacking>  	"You attack [the noun].[line break]"  
-  	LibMsg <block kissing>  	"You worry that they might take that the wrong way.[line break]"
+  	LibMsg <block kissing>  	"Hm... they might take that the wrong way.[line break]"
  	

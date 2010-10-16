@@ -1,0 +1,350 @@
+Debugging log of Inform 7
+Inform called as: C:\Program Files (x86)\Inform 7\Compilers\ni -rules C:\Program Files (x86)\Inform 7\Inform7\Extensions -package C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform -extension=ulx 
+
+
+-----------------------------------------------------
+Phase I ... Lexical analysis
+-----------------------------------------------------
+
+I've now read your source text, which is 12795 words long.
+
+
+-----------------------------------------------------
+Phase II ... Semantic analysis Ia
+-----------------------------------------------------
+
+I've also read Standard Rules by Graham Nelson, which is 39419 words long.
+I've also read Location Images by Emily Short, which is 237 words long.
+I've also read List Controller by Eric Eve, which is 2156 words long.
+I've also read Plurality by Emily Short, which is 2271 words long.
+I've also read Implicit Actions by Eric Eve, which is 9453 words long.
+I've also read Conversation Framework by Eric Eve, which is 4518 words long.
+I've also read Alternatives by Eric Eve, which is 1828 words long.
+I've also read Smarter Parser by Aaron Reed, which is 4158 words long.
+I've also read Basic Screen Effects by Emily Short, which is 2155 words long.
+I've also read Status Line Removal by Emily Short, which is 84 words long.
+I've also read Default Messages by David Fisher, which is 8316 words long.
+I've also read Simple Graphical Window by Emily Short, which is 2095 words long.
+I've also read Text Capture by Eric Eve, which is 1212 words long.
+I've also read Epistemology by Eric Eve, which is 1479 words long.
+I've also read Glulx Entry Points by Emily Short, which is 1247 words long.
+I've also read Glulx Text Effects by Emily Short, which is 1918 words long.
+
+
+-----------------------------------------------------
+Phase III ... Initialise language semantics
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IV ... Semantic analysis Ib
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase V ... Semantic analysis II
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VI ... Semantic analysis III
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase VII ... First pass through assertions
+-----------------------------------------------------
+
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+    So here we have O22'yourself' and O22'yourself'
+
+
+-----------------------------------------------------
+Phase VIII ... Second pass through assertions
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase IX ... Making the model world
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase X ... Tables and grammar
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase XI ... Phrases and rules
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+Phase XII ... Code generation
+-----------------------------------------------------
+
+
+
+==== Phase XII.1 ... Compiling the storage for the model world ====
+
+
+
+==== Phase XII.2 ... Compiling the tables ====
+
+
+
+==== Phase XII.3 ... Compiling the equations ====
+
+
+
+==== Phase XII.4 ... Compiling the named action patterns ====
+
+
+
+==== Phase XII.5 ... Compiling the action routines ====
+
+
+
+==== Phase XII.6 ... Compiling first block of phrases ====
+
+
+
+==== Phase XII.7 ... Compiling the rulebooks ====
+
+
+
+==== Phase XII.8 ... Compiling scene details ====
+
+
+
+==== Phase XII.9 ... CTNL ====
+
+
+
+==== Phase XII.10 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.11 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.14 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+Forcing to present:   [Valid]  Action: jumping on /   Noun: (A)'the supporter-pot'/VALUE_FMY/CONSTANT_SPC-object  Duration: <3 times>  
+
+Thus:   [Valid]  Action: jumping on /   Noun: (A)'the supporter-pot'/VALUE_FMY/CONSTANT_SPC-object
+
+Forcing to present:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC  Duration: <1 times>  
+
+Thus:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC
+
+Forcing to present:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC  Duration: <2 times>  
+
+Thus:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC
+
+Forcing to present:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC  Duration: <>=5 times>  
+
+Thus:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC
+
+Forcing to present:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC  Duration: <>=3 times>  
+
+Thus:   [Valid]  Action: tasting /   Noun: (A)'kimchi food'/CONDITION_FMY/DESCRIPTION_SPC
+
+Forcing to present:   [Valid]  Action: waiting /   Duration: <1 times>  
+
+Thus:   [Valid]  Action: waiting / 
+
+Forcing to present:   [Valid]  Action: waiting /   Duration: <3 times>  
+
+Thus:   [Valid]  Action: waiting / 
+
+Forcing to present:   [Valid]  Action: waiting /   Duration: <5 times>  
+
+Thus:   [Valid]  Action: waiting / 
+
+Forcing to present:   [Valid]  Action: waiting /   Duration: <9 times>  
+
+Thus:   [Valid]  Action: waiting / 
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.18 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
+-----------------------------------------------------
+Phase XIII ... Compilation now complete
+-----------------------------------------------------
+
+Total of 221 files written as streams.
+
+That concludes the debugging log from this run of Inform.
+Its contents were as follows, and can be changed by placing
+text like 'Include property creations in the debugging log.'
+or 'Omit everything from the debugging log.' in the source.
+
+Included:
+  debugging log contents  debugging log inclusions
+Omitted:
+  action creations   action pattern compilation  action pattern parsing  assemblies    assertions    case insensitive filehandling
+  conditions    constructed past participles  constructed plurals   description compilation   excerpt meanings   excerpt parsing 
+  expressions    extensions census   figure creations   grammar    grammar construction   headings  
+  implications    inferences    kind changes   kind checking   kind creations   lexical output 
+  local variables   matching    meaning list allocation  memory allocation   noun resolution   object compilation 
+  object creations   object tree   phrase comparisons   phrase compilation   phrase creations   phrase registration 
+  phrase usage   predicate calculus   predicate calculus workings  pronouns    property assignments   property creations 
+  property provision   property translations   relation definitions   rule attachments   rulebook compilation   spatial map 
+  specification permissions   specification usage   specificities    table construction   template reading   text substitutions 
+  time periods   variable creations   verifications    vocabulary  

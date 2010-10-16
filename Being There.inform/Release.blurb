@@ -1,31 +1,31 @@
 ! Blurb file created by Inform build 6E72
 
-status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Inform7\Extensions\Reserved\CblorbModel.html" "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform"
-release to "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Release"
+project folder "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform"
+release to "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Being There.gblorb"
-storyfile "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform\Build\output.ulx" include
-ifiction "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There.inform\Metadata.iFiction" include
-cover "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Cover.jpg"
-picture 1 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Cover.jpg"
-picture 3 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\pink_jacket.jpg"
-picture 4 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\street_blossoms.jpg"
-picture 5 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\mountain.jpg"
-picture 6 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\soccer_field.jpg"
-picture 7 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\temple_spring.jpg"
-picture 8 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\kimchi_pots.jpg"
-picture 9 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\stream.jpg"
-picture 10 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\baseball.jpg"
-picture 11 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\boys.jpg"
-picture 12 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\pavilion.jpg"
-picture 13 "C:\Users\Jordan\Documents\Inform\Projects\Being There\Being There Materials\Figures\umbrella_girl.jpg"
+storyfile "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Build\output.ulx" include
+ifiction "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There.inform\Metadata.iFiction" include
+cover "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Cover.jpg"
+picture 1 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Cover.jpg"
+picture 3 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\pink_jacket.jpg"
+picture 4 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\street_blossoms.jpg"
+picture 5 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\mountain.jpg"
+picture 6 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\soccer_field.jpg"
+picture 7 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\temple_spring.jpg"
+picture 8 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\kimchi_pots.jpg"
+picture 9 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\stream.jpg"
+picture 10 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\baseball.jpg"
+picture 11 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\boys.jpg"
+picture 12 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\pavilion.jpg"
+picture 13 "C:\Users\Jordan\Documents\Inform\Projects\Being-There\Being There Materials\Figures\umbrella_girl.jpg"
 
 ! Placeholder variables
 
